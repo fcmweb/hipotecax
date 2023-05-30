@@ -1,0 +1,205 @@
+.sectionsdh {
+    display: flex;
+    flex-direction: column;
+    /* background: var(--bg-portada); */
+    color: var(--morado-corp);
+    font-weight: bold;
+    width: 100%;
+    height: 580px;
+    padding: 6rem;
+  }
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+.wrapperForm {
+    margin: 10px auto;
+    width: 60%;
+    padding: 60px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px 0px #8c8d913b;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.frm {
+    color: var(--morado-corp);
+    width: 100%;
+    position: relative;
+}
+
+.inpt {
+    width: calc(100% - 12%);
+    height: 40px;
+    padding: 5px;
+    border: 0.5px solid rgb(199, 200, 201);
+    border-radius: 10px;
+    background: none;
+    font-size: 20px;
+    color: var(--morado-corp);
+    outline: none;
+    margin-bottom: 7px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.inpt::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    cursor:pointer;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 0.5px solid dodgerblue;
+    border-radius: 10px;
+    background: none;
+    margin-bottom: 7px;
+    color: var(--morado-corp);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background: var(--morado-corp);
+    border: none;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.rango {
+    border-radius: 20px;
+    color: rgb(255 255 255);
+    width: 70px;
+    text-align: center;
+    background: var(--morado-corp);
+    font-size: small;
+    padding: 3px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.rango1 {
+    position: absolute;
+    top: 19px;
+    right: -1px;
+}
+.rango2 {
+    position: absolute;
+    top: 92px;
+    right: -1px;
+}
+.rango3 {
+    position: absolute;
+    top: 165px;
+    right: -1px;
+}
+.resumenhdn {
+    display: none;
+
+}
+.resumen {
+    width: 100%;
+    height: auto;
+    background: var(--verde-corp);
+    padding: 20px;
+}
+
+.resumenPrestamo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    gap: 1em;
+    place-content: center;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.resumenPrestamo>div {
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background: var(--morado-corp);
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 0px black;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    place-content: center;
+}
+.wrappertable{
+    display: grid;
+    width: 70%;
+    margin: 30px auto;
+}
+.insTable{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #ecedef;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+@media (max-width: 700px) {
+    .sectionsdh{
+        padding: 6rem 20px;
+    }
+    .sectionsdh>h1{
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    .wrapperForm {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+    .wrappertable {
+        display: grid;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 900px)  {
+    .wrapperForm {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+    .wrappertable {
+        display: block;
+        width: 100%;
+    }
+    .inpt {
+        width: calc(93% - 12%);
+    }
+    .resumenPrestamo {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+    .resumenPrestamo > div{
+        width: 100%;
+    }
+    
+}
