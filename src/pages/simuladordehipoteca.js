@@ -43,6 +43,8 @@ export default function Simuladordehipoteca() {
 
 		interesTotal = cTotalAPagar - monto;
 		setInteresTotalAPagar(interesTotal);
+
+		window.scrollTo(0, 650);
 	};
 
 	return (
