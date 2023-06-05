@@ -186,6 +186,18 @@ a {
   text-decoration: none;
 }
 
+.logout{
+  background: transparent;
+    border: 1px solid var(--morado-corp);
+    border-radius: 10px;
+    color: rgb(36, 36, 36);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

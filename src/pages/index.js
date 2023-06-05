@@ -46,7 +46,7 @@ export default function Home() {
 				</section>
 				<section className={styles.sectionCta}>
 					<div className={styles.cta}>
-						<Link href='#'>Empieza ahora</Link>
+						<Link href='./login'>Empieza ahora</Link>
 					</div>
 				</section>
 				<section className={styles.vhSection}>
