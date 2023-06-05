@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    position: relative;
+    top: 250px;
+}
+.wpr{
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
