@@ -11,7 +11,6 @@ export default function UserArea() {
 						<ul>
 							<li>Cargar datos</li>
 							<li>Editar datos</li>
-							<li>Eliminar datos</li>
 						</ul>
 					</div>
 				</div>
